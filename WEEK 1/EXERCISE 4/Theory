@@ -1,0 +1,16 @@
+Exercise 4: Employee System
+
+Arrays:
+    .Fixed-size, contiguous memory
+    .Fast direct access (O(1))
+    .Hard to resize
+
+Operations:
+    .Add: O(1) at end, O(n) if shifting
+    .Search: O(n)
+    .Delete: O(n) due to shifting
+    
+Limitations:
+    .Fixed size
+    .Insert/delete slow
+    .Wastes space if too big

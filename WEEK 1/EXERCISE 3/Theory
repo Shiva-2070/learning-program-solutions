@@ -1,0 +1,14 @@
+Exercise 3: Sorting Orders
+
+Sorting Algorithms:
+
+Bubble Sort:
+Compares neighbors and swaps
+Simple but slow (O(n²))
+Quick Sort:
+Picks pivot, splits data
+Faster (O(n log n) average)
+Why Quick Sort:
+
+Much faster for large order lists
+Better for e-commerce platforms

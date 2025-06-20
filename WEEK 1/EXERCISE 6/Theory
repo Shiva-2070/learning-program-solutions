@@ -1,0 +1,17 @@
+Exercise 6: Library System
+
+Search Methods:
+    .Linear Search:
+    .Check each book
+    .Works on unsorted data
+    .O(n) time
+
+Binary Search:
+    .Split sorted list in half
+    .Needs sorted data
+    .O(log n) time
+
+When to Use:
+    .Small data: Linear OK
+    .Large catalog: Binary better
+    .Tradeoff: Sorting takes time

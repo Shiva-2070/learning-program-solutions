@@ -1,0 +1,15 @@
+Exercise 7: Financial Forecast
+
+Recursion:
+    .Function calls itself
+    .Needs base case to stop
+    .Example: Compound interest
+
+Optimization:
+    .Memoization (store results)
+    .Avoid duplicate calculations
+    .Watch for stack overflow
+    
+Time Complexity:
+    .O(n) for n periods
+    .Can be optimized to O(1)

@@ -1,0 +1,14 @@
+Exercise 1: Inventory Management System
+
+Why Data Structures Matter:
+    .Stores product info efficiently
+    .Fast search/add/delete operations
+    .Handles large inventory sizes
+
+Data Structures Used:
+    .ArrayList: Simple, flexible size
+    .HashMap: Fast lookups by product ID
+
+Time Complexity:
+    .ArrayList: Add O(1), Search O(n), Delete O(n)
+    .HashMap: Add O(1), Search O(1), Delete O(1)

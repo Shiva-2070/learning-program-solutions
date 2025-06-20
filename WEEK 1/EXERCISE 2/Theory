@@ -1,0 +1,13 @@
+Exercise 2: E-commerce Search
+
+Big O Notation:
+    .Measures algorithm speed as data grows
+    .O(1) = instant, O(n) = linear growth, O(log n) = fast even for large n
+
+Search Types:
+    .Linear search: Check each item (O(n))
+    .Binary search: Split sorted data in half (O(log n))
+
+Best For E-commerce:
+    .Binary search better for large catalogs
+    .Needs sorted data first

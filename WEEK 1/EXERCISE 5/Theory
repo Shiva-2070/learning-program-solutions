@@ -1,0 +1,17 @@
+Exercise 5: Task System
+
+Linked Lists:
+    .Chain of nodes (data + pointer)
+    .Types:
+        .Singly: One direction
+        .Doubly: Forward/back
+
+Advantages:
+    .Dynamic size
+    .Easy insert/delete (O(1))
+    .No memory waste
+
+Operations: 
+    .Add/delete: O(1) at head, O(n) at tail
+    .Search: O(n)
+    .Traverse: O(n)
