@@ -1,4 +1,4 @@
-// Simple product search
+
 class Product {
     String code;
     String title;

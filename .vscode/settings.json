@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": [
+        "WEEK1/Design Patterns and Principles/EXERCISE 9",
+        "WEEK1/Design Patterns and Principles/EXERCISE 8",
+        "WEEK1/Design Patterns and Principles/EXERCISE 7",
+        "WEEK1/Design Patterns and Principles/EXERCISE 6",
+        "WEEK1/Design Patterns and Principles/EXERCISE 5",
+        "WEEK1/Design Patterns and Principles/EXERCISE 4",
+        "WEEK1/Design Patterns and Principles/EXERCISE 3",
+        "WEEK1/Design Patterns and Principles/EXERCISE 2",
+        "WEEK1/Design Patterns and Principles/EXERCISE 11",
+        "WEEK1/Design Patterns and Principles/EXERCISE 1",
+        "WEEK1/Algorithms_Data Structures/EXERCISE 7",
+        "WEEK1/Algorithms_Data Structures/EXERCISE 6",
+        "WEEK1/Algorithms_Data Structures/EXERCISE 5",
+        "WEEK1/Algorithms_Data Structures/EXERCISE 4",
+        "WEEK1/Algorithms_Data Structures/EXERCISE 3",
+        "WEEK1/Algorithms_Data Structures/EXERCISE 2",
+        "WEEK1/Design Patterns and Principles/EXERCISE 10"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

@@ -1,4 +1,4 @@
-// Basic inventory system
+
 class Item {
     String id;
     String name;

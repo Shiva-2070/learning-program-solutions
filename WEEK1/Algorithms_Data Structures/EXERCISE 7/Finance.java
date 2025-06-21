@@ -1,5 +1,4 @@
 public class Finance {
-    // Simple recursive forecast
     static double predict(double current, double rate, int years) {
         if (years <= 0) return current;
         return predict(current * (1 + rate/100), rate, years-1);
