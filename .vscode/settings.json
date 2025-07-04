@@ -9,6 +9,7 @@
         "WEEK1/Design Patterns and Principles/EXERCISE 3",
         "WEEK1/Design Patterns and Principles/EXERCISE 2",
         "WEEK1/Design Patterns and Principles/EXERCISE 11",
+        "WEEK1/Design Patterns and Principles/EXERCISE 10",
         "WEEK1/Design Patterns and Principles/EXERCISE 1",
         "WEEK1/Algorithms_Data Structures/EXERCISE 7",
         "WEEK1/Algorithms_Data Structures/EXERCISE 6",
@@ -16,7 +17,49 @@
         "WEEK1/Algorithms_Data Structures/EXERCISE 4",
         "WEEK1/Algorithms_Data Structures/EXERCISE 3",
         "WEEK1/Algorithms_Data Structures/EXERCISE 2",
-        "WEEK1/Design Patterns and Principles/EXERCISE 10"
+        "WEEK1/Algorithms_Data Structures/EXERCISE 1"
     ],
-    "java.debug.settings.onBuildFailureProceed": true
-}
+    "java.debug.settings.onBuildFailureProceed": true,
+    
+    "sqltools.connections": [
+
+      {
+        "name": "Local Oracle",
+        "driver": "Oracle",
+        "connectString": "localhost:1521/ORCLCDB", // Replace with your service name
+        "username": "your_username",
+        "password": "your_password",
+        "oracleOptions": {
+          "privilege": "Normal",
+          "thickMode": true, // Change to true if using Instant Client
+          "autoCommit": false
+        }
+      }
+    ],
+    {
+      "sqltools.driverPaths": {
+        "Oracle": "/opt/oracle/instantclient_23_3"
+      },
+      "oracle.instantClient": "/opt/oracle/instantclient_23_3",
+      "sqltools.connections": [{
+        "name": "Oracle Connection",
+        "driver": "Oracle",
+        "connectString": "localhost:1521/ORCLPDB1",
+        "username": "system",
+        "password": "yourpassword",
+        "oracleOptions": {
+          "thickMode": true
+        }
+      }]
+    }
+    // Only if using Oracle Instant Client
+    "sqltools.driverPaths": {
+      "Oracle": "/Users/shiva/oracle/instantclient_23_3" 
+    },
+    "oracle.instantClient": "/Users/shiva/oracle/instantclient_23_3",
+    
+    "sqltools.useNodeRuntime": true
+    "files.associations": {
+      "*.sql": "plsql"
+    }
+  }
